@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Ropa</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="banner">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Tienda de Ropa</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="titulo-banner">¡Encuentra tu estilo!</h1>
+          <p class="subtitulo-banner">Descubre nuestra colección de ropa para hombres y mujeres</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="productos">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="item" onclick="cargar(this)">
+            <div class="contenedor-foto">
+              <img src="1.png" alt="">
+            </div>
+            <p class="descripcion">Vestido de manga corta con estampado de lunares y cinturón</p>
+            <span class="precio">Q 76.97</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="item" onclick="cargar(this)">
+            <div class="contenedor-foto">
+              <img src="2.png" alt="">
+            </div>
+            <p class="descripcion">Vestido de tirantes ribete en contraste con abertura con tira cruzada de muslo con
+              abertura</p>
+            <span class="precio">Q 179.59</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="item" onclick="cargar(this)">
+            <div class="contenedor-foto">
+              <img src="3.png" alt="">
+            </div>
+            <p class="descripcion">Vestido con estampado floral girante delantero con abertura bajo con fruncido</p>
+            <span class="precio">Q 179.59</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="item" onclick="cargar(this)">
+            <div class="contenedor-foto">
+              <img src="4.png" alt="">
+            </div>
+            <p class="descripcion">Vestido con botón de cuello cuadrado fruncido con estampado floral</p>
+            <span class="precio">Q 92.12</span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="item" onclick="cargar(this)">
+            <div class="contenedor-foto">
+              <img src="5.png" alt="">
+            </div>
+            <p class="descripcion">Vestido halter con estampado de muslo con abertura</p>
+            <span class="precio">Q 51.31</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="item" onclick="cargar(this)">
+            <div class="contenedor-foto">
+              <img src="6.png" alt="">
+            </div>
+            <p class="descripcion">crop con estampado de rayas</p>
+            <span class="precio">Q 42.76</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="item" onclick="cargar(this)">
+            <div class="contenedor-foto">
+              <img src="7.png" alt="">
+            </div>
+            <p class="descripcion">halter corto con cordón trasero</p>
+            <span class="precio">Q 34.21</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="item" onclick="cargar(this)">
+            <div class="contenedor-foto">
+              <img src="8.png" alt="">
+            </div>
+            <p class="descripcion">Vestido con estampado de cintura con abertura de manga farol</p>
+            <span class="precio">Q 136.86</span>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <section class="contenido">
+          <div class="mostrador" id="mostrador">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="item" onclick="cargar(this)">
+                  <div class="contenedor-foto">
+                    <img src="9.png" alt="">
+                  </div>
+                  <p class="descripcion">halter con cordón trasero floral de margarita</p>
+                  <span class="precio">Q 51.32</span>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="item" onclick="cargar(this)">
+                  <div class="contenedor-foto">
+                    <img src="10.png" alt="">
+                  </div>
+                  <p class="descripcion">3 piezas camiseta corta ribete en forma de lechuga</p>
+                  <span class="precio">Q66.29 </span>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="item" onclick="cargar(this)">
+                  <div class="contenedor-foto">
+                    <img src="11.png" alt="">
+                  </div>
+                  <p class="descripcion">Vestido halter con estampado de muslo con abertura</p>
+                  <span class="precio">Q 111.18</span>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="item" onclick="cargar(this)">
+                  <div class="contenedor-foto">
+                    <img src="13.png" alt="">
+                  </div>
+                  <p class="descripcion">Pantalones de mezcla de lana y lino</p>
+                  <span class="precio">Q 187.31</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacto">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="titulo-contacto">Contáctanos</h2>
+          <form>
+            <div class="form-group">
+              <label for="nombre">Nombre:</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+            </div>
+            <div class="form-group">
+              <label for="email">Correo Electrónico:</label>
+              <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje:</label>
+              <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <h2 class="titulo-direccion">Dirección</h2>
+          <p class="direccion">123 Calle Principal<br> Ciudad, País</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="titulo-footer">Tienda de Ropa</h3>
+          <p class="descripcion-footer">Encuentra las últimas tendencias en moda para hombres y mujeres.</p>
+        </div>
+        <div class="col-md-6">
+          <div class="newsletter">
+            <h3 class="titulo-newsletter">Mantente al día</h3>
+            <div class="content">
+              <p>
+                Ingresa tu correo para enterarte de nuestras nuevas prendas y nuestras ofertas.
+              </p>
+              <form class="newsletter-form">
+                <input type="email" class="form-control" placeholder="Ingresa tu correo aquí...">
+                <button type="submit" class="btn btn-primary">Únete a nuestra familia</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-secondary text-light py-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p class="text-center">
+              Desarrollado por Heber Puluc &copy; HJ
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
